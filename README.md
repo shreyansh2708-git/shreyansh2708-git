@@ -1,19 +1,18 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a1a2e,100:00D4FF&height=200&section=header&text=Shreyansh%20Mishra&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Gen%20AI%20Engineer%20%7C%20LLM%20Agent%20Builder%20%7C%20Scopus%20Researcher&descAlignY=58&descColor=00D4FF&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a1a2e,100:00D4FF&height=200&section=header&text=Shreyansh%20Mishra&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Backend%20Engineer%20%7C%20Gen%20AI%20Builder%20%7C%20Scopus%20Researcher&descAlignY=58&descColor=00D4FF&animation=fadeIn)
 
 </div>
 
 <div align="center">
 
-🚀 **B.Tech CSE @ JUET (2027)** · 🤖 **Ex Gen AI Intern @ TeamLease Regtech** · 📄 **Scopus Published**
+🚀 **B.Tech CSE @ JUET (2027)** · ⚙️ **Backend & Gen AI Engineer** · 📄 **Scopus Published**
 
 </div>
 
 <div align="center">
 
-I build production-grade AI agents, RAG pipelines, and LLM-powered systems that work in the real world.
-Currently automating regulatory compliance using multi-agent LangGraph + hybrid RAG.
+I build reliable backend systems and production-grade AI pipelines — REST APIs, agentic LLM workflows, and RAG systems that scale.
 Scopus-indexed researcher · HackWithInfy Rounds 1 & 2 Qualifier · TEDxJUET 2026 Sponsorship Head
 
 </div>
@@ -44,17 +43,18 @@ Scopus-indexed researcher · HackWithInfy Rounds 1 & 2 Qualifier · TEDxJUET 202
 ```python
 class Shreyansh:
 
-    role        = "Ex Gen AI Engineer Intern @ TeamLease Regtech"
+    focus       = ["Backend Engineering", "Gen AI Systems", "REST APIs", "LLM Agents"]
     education   = "B.Tech CSE @ JUET Guna (2027) | CGPA: 7.39"
-    building    = "Production AI Agents | RAG Pipelines | REST APIs"
+    experience  = ["Gen AI Intern @ TeamLease Regtech", "DS Intern @ Proxenix"]
     published   = "Scopus-Indexed Chapter — IGI Global (Heart Disease Prediction)"
-    qualified   = "HackWithInfy Rounds 1 & 2 (Infosys) — Interview Stage"
-    interests   = ["LLM Agents", "RAG", "System Design", "Data Engineering"]
-    stack       = ["LangGraph", "FastAPI", "Spring Boot", "LangChain", "ChromaDB"]
-    fun_fact    = "CBSE State-level Track & Field athlete who also ships AI systems ⚡"
+    qualified   = "HackWithInfy Rounds 1 & 2 (Infosys)"
+    backend     = ["Spring Boot", "FastAPI", "REST APIs", "System Design", "JPA"]
+    ai_stack    = ["LangGraph", "LangChain", "RAG", "ChromaDB", "LLMs"]
+    languages   = ["Java", "Python", "C++", "SQL"]
+    fun_fact    = "CBSE State-level athlete who ships backend APIs and AI agents ⚡"
 
-    def say_hi(self):
-        print("Let's build something that actually works in production.")
+    def goal(self):
+        print("High-performance software. Real-world AI. Production-ready always.")
 ```
 
 ---
@@ -68,6 +68,13 @@ class Shreyansh:
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+**Backend & APIs**
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
 **AI / ML / LLM**
 
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
@@ -80,13 +87,6 @@ class Shreyansh:
 
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=databricks&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-
-**Backend & APIs**
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 **Databases**
 
@@ -121,6 +121,16 @@ class Shreyansh:
 
 ## 🔥 Featured Projects
 
+### 🗄️ Store Inventory REST API · [GitHub ↗](https://github.com/shreyansh2708-git/store-inventory-api.git)
+> Production-ready RESTful backend for real-time product catalog and stock management.
+
+- **6 endpoints** (POST, GET, PUT, PATCH, DELETE) with full CRUD coverage
+- Eliminated manual SQL via **Spring Data JPA** — reduced data access code by **~80%**
+- All endpoints validated and tested using **Postman**
+- `Java` · `Spring Boot` · `Spring Data JPA` · `H2`
+
+---
+
 ### 🏛️ AI Compliance Agent *(Production — TeamLease Regtech)*
 > Multi-agent LangGraph system automating regulatory compliance checking against India's Water Act, state-specific rules, and daily-tracked regulatory circulars for legal teams.
 
@@ -138,16 +148,6 @@ class Shreyansh:
 - Full solve-test-fix cycles in just **3 LLM calls**
 - Autonomous debugging loop across multiple languages
 - `Python` · `LangGraph` · `Groq LLaMA 3.3 70B` · `ChromaDB` · `Tavily` · `Streamlit`
-
----
-
-### 🗄️ Store Inventory REST API · [GitHub ↗](https://github.com/shreyansh2708-git/store-inventory-api.git)
-> Production-ready RESTful backend for real-time product catalog and stock management.
-
-- **6 endpoints** (POST, GET, PUT, PATCH, DELETE) with full CRUD coverage
-- Eliminated manual SQL via **Spring Data JPA** — reduced data access code by **~80%**
-- All endpoints validated and tested using **Postman**
-- `Java` · `Spring Boot` · `Spring Data JPA` · `H2`
 
 ---
 
@@ -227,7 +227,7 @@ class Shreyansh:
 
 <div align="center">
 
-*Actively seeking Gen AI, Data Engineering, and SDE roles at top-tier companies.*
+*Actively seeking Backend Engineering and Gen AI roles at top-tier companies.*
 
 [![LinkedIn](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreyansh-mishra-314a98284/)
 [![Email](https://img.shields.io/badge/Drop_a_Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyansh231b324@gmail.com)
