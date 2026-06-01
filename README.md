@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Shreyansh+Mishra!+👋;Gen+AI+Engineer+%7C+LangGraph+%7C+RAG+Pipelines;Building+AI+that+actually+works+in+production.;Scopus+Researcher+%7C+TEDxJUET+2026+Organizer" alt="Typing SVG" />
 </div>
-
+ 
 <h3 align="center">🚀 B.Tech CSE @ JUET (2027) · Gen AI Intern @ TeamLease Regtech · Founder @ Vaidyaa</h3>
 
 <p align="center">
